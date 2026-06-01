@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, StyleSheet, ScrollView } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-import { Colors, Spacing, FontSize, BorderRadius } from '../../../constants/colors';
+import { Colors, Spacing, FontSize, BorderRadius } from '../../constants/colors';
 
 export default function AssignedExercisesScreen() {
   return (

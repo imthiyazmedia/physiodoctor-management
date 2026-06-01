@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { View, Text, StyleSheet, ScrollView, TouchableOpacity, TextInput, Alert } from 'react-native';
 import { useLocalSearchParams } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
-import { Colors, Spacing, FontSize, BorderRadius } from '../../../constants/colors';
+import { Colors, Spacing, FontSize, BorderRadius } from '../../constants/colors';
 
 export default function AppointmentDetailScreen() {
   const { id } = useLocalSearchParams();

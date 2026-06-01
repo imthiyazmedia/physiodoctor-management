@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Switch, Alert } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-import { Colors, Spacing, FontSize, BorderRadius } from '../../../constants/colors';
+import { Colors, Spacing, FontSize, BorderRadius } from '../constants/colors';
 
 export default function SettingsScreen() {
   const [notifications, setNotifications] = React.useState(true);

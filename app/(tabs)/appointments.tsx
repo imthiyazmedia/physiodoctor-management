@@ -2,9 +2,9 @@ import React, { useState, useCallback } from 'react';
 import { View, Text, StyleSheet, ScrollView, RefreshControl, TouchableOpacity } from 'react-native';
 import { useFocusEffect } from '@react-navigation/native';
 import { Ionicons } from '@expo/vector-icons';
-import { Colors, Spacing, FontSize, BorderRadius } from '../../../constants/colors';
-import { getAppointments, getAppointmentsByDate } from '../../../services/database';
-import AppointmentCard from '../../../components/AppointmentCard';
+import { Colors, Spacing, FontSize, BorderRadius } from '../../constants/colors';
+import { getAppointments, getAppointmentsByDate } from '../../services/database';
+import AppointmentCard from '../../components/AppointmentCard';
 
 export default function AppointmentsScreen({ navigation }: any) {
   const [appointments, setAppointments] = useState<any[]>([]);

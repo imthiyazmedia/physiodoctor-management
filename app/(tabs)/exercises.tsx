@@ -2,8 +2,8 @@ import React, { useState, useCallback } from 'react';
 import { View, Text, StyleSheet, ScrollView, TouchableOpacity, RefreshControl } from 'react-native';
 import { useFocusEffect } from '@react-navigation/native';
 import { Ionicons } from '@expo/vector-icons';
-import { Colors, Spacing, FontSize, BorderRadius } from '../../../constants/colors';
-import { getExercises } from '../../../services/database';
+import { Colors, Spacing, FontSize, BorderRadius } from '../../constants/colors';
+import { getExercises } from '../../services/database';
 
 export default function ExercisesScreen({ navigation }: any) {
   const [exercises, setExercises] = useState<any[]>([]);

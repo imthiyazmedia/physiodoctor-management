@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Alert, Linking } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-import { Colors, Spacing, FontSize, BorderRadius } from '../../../constants/colors';
+import { Colors, Spacing, FontSize, BorderRadius } from '../../constants/colors';
 
 const menuItems = [
   { section: 'Clinical', items: [

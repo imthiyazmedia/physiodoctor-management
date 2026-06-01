@@ -2,9 +2,9 @@ import React, { useState, useCallback } from 'react';
 import { View, Text, StyleSheet, ScrollView, RefreshControl, TouchableOpacity, TextInput } from 'react-native';
 import { useFocusEffect } from '@react-navigation/native';
 import { Ionicons } from '@expo/vector-icons';
-import { Colors, Spacing, FontSize, BorderRadius } from '../../../constants/colors';
-import { getPatients } from '../../../services/database';
-import PatientCard from '../../../components/PatientCard';
+import { Colors, Spacing, FontSize, BorderRadius } from '../../constants/colors';
+import { getPatients } from '../../services/database';
+import PatientCard from '../../components/PatientCard';
 
 export default function PatientsScreen({ navigation }: any) {
   const [patients, setPatients] = useState<any[]>([]);

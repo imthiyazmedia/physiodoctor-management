@@ -2,8 +2,8 @@ import React, { useState, useCallback } from 'react';
 import { View, Text, StyleSheet, ScrollView, RefreshControl, TouchableOpacity } from 'react-native';
 import { useFocusEffect } from '@react-navigation/native';
 import { Ionicons } from '@expo/vector-icons';
-import { Colors, Spacing, FontSize, BorderRadius } from '../../../constants/colors';
-import { getInvoices } from '../../../services/database';
+import { Colors, Spacing, FontSize, BorderRadius } from '../../constants/colors';
+import { getInvoices } from '../../services/database';
 
 export default function BillingScreen({ navigation }: any) {
   const [invoices, setInvoices] = useState<any[]>([]);

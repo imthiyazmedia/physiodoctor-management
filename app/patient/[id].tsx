@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Alert } from 'react-native';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
-import { Colors, Spacing, FontSize, BorderRadius } from '../../../constants/colors';
-import { getPatient, getSOAPNotes, getAssignedExercises, deletePatient } from '../../../services/database';
+import { Colors, Spacing, FontSize, BorderRadius } from '../../constants/colors';
+import { getPatient, getSOAPNotes, getAssignedExercises, deletePatient } from '../../services/database';
 
 export default function PatientDetailScreen() {
   const { id } = useLocalSearchParams();

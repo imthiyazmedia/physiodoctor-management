@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { View, Text, StyleSheet, ScrollView, TextInput, TouchableOpacity, Alert } from 'react-native';
 import { useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
-import { Colors, Spacing, FontSize, BorderRadius } from '../../../constants/colors';
-import { addExercise } from '../../../services/database';
+import { Colors, Spacing, FontSize, BorderRadius } from '../../constants/colors';
+import { addExercise } from '../../services/database';
 
 const uuid = () => 'ex_' + Date.now() + '_' + Math.random().toString(36).slice(2, 9);
 
